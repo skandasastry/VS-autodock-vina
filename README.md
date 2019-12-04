@@ -17,9 +17,7 @@ The examples given in this folder (apoReceptorMonomer.pdb) and (receptorMonomerA
 
 5. Generate a Vina configuration file in AutoDock Tools that specifies the information of the grid. A sample config file is given, but make sure the grid is placed in the exact coordinates where you want it! This is done in the exact same way as single docking, and the tutorials for this can be found in the following links: 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4868550/
-
 http://vina.scripps.edu/tutorial.html
-
 http://vina.scripps.edu/manual.html
 
 6. After adjusting the grid and generating a Vina configuration file in AutoDock Tools (same as single docking), edit and execute vina_screen_local.sh. Currently, the file is written to iterate through a directory containing ligands titled Ligand_1.pdbqt, Ligand_2.pdbqt, and so on. The program will output an “out” PDBQT file with the highest scoring poses and a “log” txt file with the docking scores, in a separate directory for each ligand.
