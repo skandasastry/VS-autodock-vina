@@ -1,8 +1,8 @@
-#VS with AutoDock Vina
+# Virtual Screening with AutoDock Vina
 
 Skanda Sastry
 
-This repository contains a set of scripts that aids Virtual Screening by Molecular Docking using AutoDock Vina. I have provided a script that allows a user to dock a set of ligands against a target receptor, then sort them on the basis of ligand affinity according to Vina's scoring function as well as another scoring metric to account for ligand atomic weight, since scoring functions are typically biased toward higher-MW compounds.
+This repository contains a set of scripts that aids Virtual Screening by Molecular Docking using AutoDock Vina, a docking software developed at the Scripps Institute. I have provided a script that allows a user to dock a set of ligands against a target receptor, then sort them on the basis of ligand affinity according to Vina's scoring function as well as another scoring metric to account for ligand atomic weight, since scoring functions are typically biased toward higher-MW compounds.
 
 
 To do VS with Vina using this repository, follow these steps:
