@@ -1,0 +1,7 @@
+
+Printing Raw Affinity Values
+
+1	-6.1	Ligand1
+2	-6	Ligand4
+3	-5.3	Ligand2
+4	-4.9	Ligand3
