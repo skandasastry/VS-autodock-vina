@@ -24,7 +24,7 @@ const uint32_t END_LIGAND = 4;
 
 //function header
 const std::string processFile(const std::string& fname, uint32_t affinityContainingLine);
-const uint32_t atomCounter(const std::string& fname);
+uint32_t atomCounter(const std::string& fname);
 
 int main() {
 
@@ -128,7 +128,7 @@ const std::string processFile(const std::string& fname, uint32_t affinityContain
 }
 
 //function reads the pdbqt file of the ligand and returns number of non-H and non-C atoms
-const uint32_t atomCounter(const std::string& fname) {
+uint32_t atomCounter(const std::string& fname) {
     int count = 0;
     std::string line;
     std::ifstream inFile(fname.c_str());
